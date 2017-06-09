@@ -54,7 +54,7 @@ class ConditionalHelperReference extends CachedReference {
 /**
   The `if` helper allows you to conditionally render one of two branches,
   depending on the "truthiness" of a property.
-  For example the following values are all also: `false`, `undefined`, `null`, `""`, `0`, `NaN` or an empty array.
+  For example the following values are all falsey: `false`, `undefined`, `null`, `""`, `0`, `NaN` or an empty array.
 
   This helper has two forms, block and inline.
 
